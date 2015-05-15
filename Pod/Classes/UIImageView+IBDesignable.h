@@ -26,4 +26,11 @@ IB_DESIGNABLE
 @property (nonatomic, getter=isSquircle) IBInspectable BOOL squircle;
 @property (nonatomic, getter=hasSquircleShadow) IBInspectable BOOL squircleShadow;
 
+/**
+ *  @author Richard Stelling (mailto:richard@empiricalmagic.com)
+ *
+ *  Sets the UIImageView to a circle. This call is ignored if the view is not a square.
+ */
+@property (nonatomic, getter=isCircle) IBInspectable BOOL circle;
+
 @end

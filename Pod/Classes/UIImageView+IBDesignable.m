@@ -144,4 +144,23 @@
     });
 }
 
+- (void)setCircle:(BOOL)circle
+{
+    if(circle)
+    {
+        NSAssert(CGRectGetHeight(self.frame) == CGRectGetWidth(self.frame), @"UIImage view is not a square, use -setCornerRadius: instead.");
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            [self setCornerRadius:CGRectGetHeight(self.frame)/2.0f];
+            
+        });
+    }
+}
+
+- (BOOL)isCircle
+{
+    return [self cornerRadius] == (CGRectGetHeight(self.frame)/2.0f);
+}
+
 @end
