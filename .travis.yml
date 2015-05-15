@@ -1,4 +1,6 @@
 language: objective-c
+before_install:
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 xcode_workspace: Example/IBDesignable.xcworkspace # path to your xcodeproj folder
 xcode_scheme: IBDesignable-Example
 podfile: Example/Podfile
