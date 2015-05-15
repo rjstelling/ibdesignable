@@ -1,3 +1,4 @@
 language: objective-c
 xcode_workspace: Example/IBDesignable.xcworkspace # path to your xcodeproj folder
 xcode_scheme: IBDesignable-Example
+podfile: Example/Podfile
