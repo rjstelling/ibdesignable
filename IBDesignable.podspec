@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                             A set of *Objective-C categories* that implement simple attributes on standard Cocoa views.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/IBDesignable"
+  s.homepage         = "https://github.com/rjstelling/IBDesignable"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Richard Stelling" => "richard@empiricalmagic.com" }
