@@ -1,5 +1,5 @@
 PODS:
-  - IBDesignable (0.1.4)
+  - IBDesignable (0.1.5)
 
 DEPENDENCIES:
   - IBDesignable (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  IBDesignable: 87c8941a406b624d908f363311722d53d3f1882f
+  IBDesignable: 6272021043c952e944e17b3777eaabee78076ba6
 
 COCOAPODS: 0.37.1
