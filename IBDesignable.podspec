@@ -9,10 +9,12 @@
 
 Pod::Spec.new do |s|
   s.name             = "IBDesignable"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Simple Interface attributes on standard Cocoa views."
   s.description      = <<-DESC
                             A set of *Objective-C categories* that implement simple attributes on standard Cocoa views.
+
+                            NOTE: you should use the `use_frameworks!` command in your Podfile.
                        DESC
   s.homepage         = "https://github.com/rjstelling/IBDesignable"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -29,7 +31,6 @@ Pod::Spec.new do |s|
     'IBDesignable' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit'
 end
