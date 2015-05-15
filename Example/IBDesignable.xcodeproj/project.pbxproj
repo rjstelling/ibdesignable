@@ -514,6 +514,7 @@
 			baseConfigurationReference = E74C79A076CBA85C3FF217EB /* Pods-IBDesignable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IBDesignable/IBDesignable-Prefix.pch";
 				INFOPLIST_FILE = "IBDesignable/IBDesignable-Info.plist";
