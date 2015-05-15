@@ -63,11 +63,25 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower2" translatesAutoresizingMaskIntoConstraints="NO" id="hlZ-kh-MDa">
+                                <rect key="frame" x="260" y="380" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="InQ-CF-G0O"/>
+                                    <constraint firstAttribute="width" constant="80" id="b32-8Y-9aZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="squircle" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="squircleShadow" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="circle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Jjx-Ie-vOP" firstAttribute="centerX" secondItem="x8B-dN-m4Y" secondAttribute="centerX" id="7yB-nn-mqG"/>
+                            <constraint firstItem="hlZ-kh-MDa" firstAttribute="top" secondItem="dQW-sd-uLW" secondAttribute="bottom" constant="8" id="E0n-IH-jkR"/>
                             <constraint firstItem="dQW-sd-uLW" firstAttribute="top" secondItem="wCM-FS-ZWr" secondAttribute="bottom" constant="8" id="H5Q-wo-W89"/>
+                            <constraint firstAttribute="centerX" secondItem="hlZ-kh-MDa" secondAttribute="centerX" id="ILn-F3-zna"/>
                             <constraint firstItem="wCM-FS-ZWr" firstAttribute="top" secondItem="Jjx-Ie-vOP" secondAttribute="bottom" constant="8" id="WuV-be-skK"/>
                             <constraint firstItem="Jjx-Ie-vOP" firstAttribute="centerX" secondItem="wCM-FS-ZWr" secondAttribute="centerX" id="cMI-DD-XxT"/>
                             <constraint firstItem="dQW-sd-uLW" firstAttribute="centerX" secondItem="wCM-FS-ZWr" secondAttribute="centerX" id="d7f-y4-e2H"/>
