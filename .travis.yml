@@ -1,7 +1,7 @@
 language: objective-c
 before_install:
-    - gem install cocoapods -v '0.37'
-script: xcodebuild -workspace Example/IBDesignable.xcworkspace -scheme IBDesignable-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - gem install cocoapods -v '0.37.1'
+script: xcodebuild -workspace Example/IBDesignable.xcworkspace -scheme IBDesignable-Example -sdk iphoneos ONLY_ACTIVE_ARCH=NO
 #xcode_workspace: Example/IBDesignable.xcworkspace # path to your xcodeproj folder
 #xcode_scheme: IBDesignable-Example
 podfile: Example/Podfile
