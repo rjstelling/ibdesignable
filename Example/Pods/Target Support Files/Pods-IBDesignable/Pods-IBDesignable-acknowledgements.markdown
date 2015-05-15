@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## IBDesignable
 
-Copyright (c) 2015 Richard Stelling <richard_stelling@mastercard.com>
+Copyright (c) 2015 Richard Stelling <richard@empiricalmagic.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
