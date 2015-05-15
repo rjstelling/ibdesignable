@@ -2,8 +2,8 @@
 //  IBDViewController.h
 //  IBDesignable
 //
-//  Created by Richard Stelling on 05/15/2015.
-//  Copyright (c) 2014 Richard Stelling. All rights reserved.
+//  Created by Richard Stelling on 15/05/2015.
+//  Copyright (c) 2015 Richard Stelling. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
