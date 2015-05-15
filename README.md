@@ -1,6 +1,6 @@
 # IBDesignable
 
-[![CI Status](http://img.shields.io/travis/Richard Stelling/IBDesignable.svg?style=flat)](https://travis-ci.org/Richard Stelling/IBDesignable)
+[![CI Status](http://img.shields.io/travis/rjstelling/IBDesignable.svg?style=flat)](https://travis-ci.org/rjstelling/IBDesignable)
 [![Version](https://img.shields.io/cocoapods/v/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
 [![License](https://img.shields.io/cocoapods/l/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
 [![Platform](https://img.shields.io/cocoapods/p/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
