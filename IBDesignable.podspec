@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IBDesignable"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Simple Interface attributes on standard Cocoa views."
   s.description      = <<-DESC
                             A set of *Objective-C categories* that implement simple attributes on standard Cocoa views.
