@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IBDesignable"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Simple Interface attributes on standard Cocoa views."
   s.description      = <<-DESC
                             A set of *Objective-C categories* that implement simple attributes on standard Cocoa views.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/rjstelling/IBDesignable.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/rjstelling'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
