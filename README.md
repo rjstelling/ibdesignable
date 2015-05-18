@@ -9,6 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/simulator.png" alt="IBDesignable Simulator" title="IBDesignable Simulator" height="400">
+  
+  <img src="https://raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/xcode.png" alt="IBDesignable Xcode" title="IBDesignable Xcode" height="400">
+</p>
+
 ## Requirements
 
 ## Installation
