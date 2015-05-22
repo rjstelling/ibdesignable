@@ -163,4 +163,26 @@
     return [self cornerRadius] == (CGRectGetHeight(self.frame)/2.0f);
 }
 
+#pragma mark - Interface Builder
+
+//#if TARGET_INTERFACE_BUILDER
+
+- (void)prepareForInterfaceBuilder
+{
+    [self drawRect:self.bounds];
+}
+
+- (void)drawRect:(CGRect)rect
+{
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:rect];
+    
+    [[UIColor redColor] setStroke];
+    
+    path.lineWidth = 4;
+    
+    [path stroke];
+}
+
+//#endif //TARGET_INTERFACE_BUILDER
+
 @end
