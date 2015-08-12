@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
                             NOTE: you should use the `use_frameworks!` command in your Podfile.
                        DESC
   s.homepage         = "https://github.com/rjstelling/IBDesignable"
-  s.screenshots     = "raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/simulator.png", "raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/xcode.png"
+  s.screenshots     = "http://raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/simulator.png", "http://raw.githubusercontent.com/rjstelling/ibdesignable/assets/Screen%20Shots/xcode.png"
   s.license          = 'MIT'
   s.author           = { "Richard Stelling" => "richard@empiricalmagic.com" }
   s.source           = { :git => "https://github.com/rjstelling/IBDesignable.git", :tag => s.version.to_s }
