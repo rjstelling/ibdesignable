@@ -7,7 +7,17 @@
 //
 
 #import "IBDViewController.h"
+#import "UITableViewController+IBDesignable.h"
 
 @implementation IBDViewController
+
+- (IBAction)onToggleRefreshController:(UISwitch *)sender
+{
+    // If you want to set or get the value of refreshController
+    // you first need to:
+    //    #import "UITableViewController+IBDesignable.h"
+    
+    self.refreshController = sender.on;
+}
 
 @end
