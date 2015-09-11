@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
 [![License](https://img.shields.io/cocoapods/l/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
 [![Platform](https://img.shields.io/cocoapods/p/IBDesignable.svg?style=flat)](http://cocoapods.org/pods/IBDesignable)
+[![Twitter: @rjstelling](https://img.shields.io/badge/contact-@rjstelling-blue.svg?style=flat)](https://twitter.com/rjstelling)
 
 ## Usage
 
